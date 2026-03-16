@@ -4,8 +4,24 @@
   "description": "Nuxt module helpers for the current Yournotify API",
   "type": "module",
   "main": "src/module.js",
-  "exports": {".": "./src/module.js"},
-  "scripts": {"test": "node --input-type=module -e \"import mod from './src/module.js'; console.log(typeof mod);\""},
+  "exports": {
+    ".": "./src/module.js"
+  },
+  "scripts": {
+    "test": "node --input-type=module -e \"import mod from './src/module.js'; console.log(typeof mod);\""
+  },
   "author": "Yournotify",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/yournotify/yournotify-nuxt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yournotify/yournotify-nuxt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yournotify/yournotify-nuxt/issues"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ]
 }
